@@ -13,30 +13,28 @@ export interface ItchUserInfo {
 }
 
 export interface ItchGameInfo {
-    game: {
-        id: number;
-        url: string;
-        type: string;
-        title: string;
-        cover_url: string;
-        short_text: string;
-        classification: string;
-        created_at: Date | string;
-        published_at: Date | string;
+    id: number;
+    url: string;
+    type: string;
+    title: string;
+    cover_url: string;
+    short_text: string;
+    classification: string;
+    created_at: Date | string;
+    published_at: Date | string;
 
-        user: ItchUserInfo;
-        embed: ItchEmbedInfo;
+    user: ItchUserInfo;
+    embed: ItchEmbedInfo;
 
-        has_demo: boolean;
-        min_price: number;
-        can_be_bought: boolean;
-        in_press_system: boolean;
+    has_demo: boolean;
+    min_price: number;
+    can_be_bought: boolean;
+    in_press_system: boolean;
 
-        p_android: boolean;
-        p_windows: boolean;
-        p_osx: boolean;
-        p_linux: false;
-    };
+    p_android: boolean;
+    p_windows: boolean;
+    p_osx: boolean;
+    p_linux: false;
 }
 
 export interface ItchUploadInfo {

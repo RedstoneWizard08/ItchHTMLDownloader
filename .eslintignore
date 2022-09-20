@@ -3,3 +3,4 @@ dist
 *.md
 LICENSE
 pnpm-lock.yaml
+download.js
